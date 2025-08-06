@@ -1,13 +1,10 @@
 import Banner from "./components/Banner";
-import Bannertwo from "./components/Bannertwo";
-
-
-export default function Home() {
+import Info from "./components/Info";
+export default function Page() {
   return (
-    <div className="mx-auto">
+    <div  className="mx-auto">
       <Banner />
-     <Bannertwo />
-      
+      <Info />
     </div>
   );
 }
