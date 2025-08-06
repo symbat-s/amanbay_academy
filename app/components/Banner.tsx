@@ -1,30 +1,38 @@
-
 import Image from "next/image";
+
 export default function Banner() {
   return (
-   <div className="w-full h-screen bg-cover z-" style={{ backgroundImage: "url('/Peak.png')" }}>
-      
-    <div className=" ">
-       <div className="w-[412px] h-[150px] text-5xl text-block pt-[230px] ml-[100px]">
-         <div className="text-[#D91C1C]">Welcome to</div>
-         <div className="text-[#BABBBB]">Amanbay Tech!</div>
-       </div>
+    <div
+      className="w-full h-screen bg-cover bg-center z-[-1] flex items-center justify-center px-6"
+      style={{ backgroundImage: "url('/Peak.png')" }}
+    >
+      <div className="max-w-[1200px] w-full flex flex-col items-start gap-10 text-white">
+        <div className="space-y-4">
+          <div className="text-[#d9011c] text-3xl sm:text-4xl md:text-5xl font-bold">
+            Welcome to
+          </div>
+          <div className="text-[#babbbb] text-2xl sm:text-3xl md:text-4xl font-semibold">
+            Amanbay Tech!
+          </div>
+        </div>
 
-         <div className="w-[705px] h-[144px] ml-[100px] mt-[180px]">
-            <div className="text-[35px]">Empower Your Business for the Digital Age -
-        Cutting-Edge Web, Mobile Development, 
-         and DevOps Solutions for Your Success!
-            </div>
-         </div>
+        <div className="max-w-3xl text-base sm:text-lg md:text-xl leading-relaxed">
+          <p>
+            Empower Your Business for the Digital Age – Cutting-Edge Web,
+            Mobile Development, <br />
+            and DevOps Solutions for Your Success!
+          </p>
+        </div>
 
-         <div className="flex gap-[40px] mt-[100px]  ">
-            <button className="text-3xl bg-[#C01F26] w-[308px] h-[60px] rounded-[30px]  ml-[100px] hover:bg-[#c01f2796]">Our services</button>
-            <button className="bg-transparent rounded-[30px] w-[257px] h-[60px] text-3xl border-2 border-white/50">Contract Us</button>
-         </div>
-     </div>
-  
-   </div>
-  
-     
+        <div className="flex flex-wrap gap-4 mt-6">
+          <button className="text-lg sm:text-xl bg-[#c01f26] hover:bg-[#c01f2796] text-white px-6 py-3 rounded-[30px]">
+            Our services
+          </button>
+          <button className="text-lg sm:text-xl border-2 border-white/50 text-white hover:bg-[#babbbb] hover:text-[black] px-6 py-3 rounded-[30px]">
+            Contact Us
+          </button>
+        </div>
+      </div>
+    </div>
   );
 }
