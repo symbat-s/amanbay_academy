@@ -3,7 +3,7 @@ import Bannertwo from "./components/Bannertwo";
 
 export default function Home() {
   return (
-      <Bannertwo />
+      <Banner />
       
   );
 }

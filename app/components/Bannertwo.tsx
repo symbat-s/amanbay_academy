@@ -1,4 +1,4 @@
-export default function Bannertwo (){
+ function Bannertwo (){
    return (
     <div className=" flex">
      <div>
@@ -32,3 +32,5 @@ export default function Bannertwo (){
    )
    
 }
+
+export default Bannertwo
