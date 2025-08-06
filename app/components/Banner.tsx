@@ -18,7 +18,7 @@ export default function Banner() {
          </div>
 
          <div className="flex gap-[40px] mt-[100px]  ">
-            <button className="text-3xl bg-[#C01F26] w-[308px] h-[60px] rounded-[30px]  ml-[100px]">Our services</button>
+            <button className="text-3xl bg-[#C01F26] w-[308px] h-[60px] rounded-[30px]  ml-[100px] hover:bg-[#c01f2796]">Our services</button>
             <button className="bg-transparent rounded-[30px] w-[257px] h-[60px] text-3xl border-2 border-white/50">Contract Us</button>
          </div>
      </div>
