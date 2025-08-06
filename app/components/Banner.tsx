@@ -1,4 +1,3 @@
-import Image from "next/image";
 export default function Banner() {
   return (
    <div className="w-full h-screen bg-cover z-" style={{ backgroundImage: "url('/Peak.png')" }}>

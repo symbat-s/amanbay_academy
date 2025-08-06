@@ -84,14 +84,14 @@ export default function Footer() {
 
           <h1 className="font-bold text-4xl mt-10" style={{ fontFamily: "Inter" }}>Opening hours</h1>
           <p className="mt-3 text-sm">9:00 - 20:00</p>
-          <div className="mt-10">
+          <div className="mt-7">
             <Image
-                    src="/insta.png"
-                    alt="insta"
-                    priority
-                    width={50}
-                    height={50}
-                    className="object-cover"
+                src="/insta.png"
+                alt="insta"
+                width={30}
+                height={30}
+                className="object-cover"
+                priority
             />
           </div>
         </div>
